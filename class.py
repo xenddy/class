@@ -18,7 +18,7 @@ class Post:
 
 # Step 5
 members = []
-member1 = Member("김예은", "xenddy", "password1")
+member1 = Member("김예은", "xenddy", "password123")
 member2 = Member("백송이", "songsong", "password2")
 member3 = Member("백유리", "glass", "password3")
 members.extend([member1, member2, member3])
