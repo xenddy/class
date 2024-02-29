@@ -44,12 +44,12 @@ for post in posts:
     print("제목:", post.title)
     print("내용:", post.content)
     print("작성자:", post.author)
-    print()  # 게시글 사이 빈 줄 출력
+    print("\n-------------------")
 
 # 6-1
 print("\n특정 유저가 작성한 게시글의 제목:")
 for post in posts:
-    if post.author == member1.username:
+    if post.author == member3.username:
         print(post.title)
 
 # 6-2
