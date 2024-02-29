@@ -24,6 +24,7 @@ member3 = Member("백유리", "glass", "password3")
 members.extend([member1, member2, member3])
 for member in members:
     print(member.name)
+    print("\n-------------------")
 
 print("회원 정보:")
 for member in members:
@@ -35,7 +36,6 @@ for member in members:
     for i in range(3):
         post = Post(f"{member.name}'s Post {i+1}", f"Content of {member.name}'s post {i+1}", member.username)
         posts.append(post)
-
 
 #posts[0].content='test'
 
