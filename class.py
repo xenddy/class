@@ -27,7 +27,7 @@ for member in members:
 
 print("회원 정보:")
 for member in members:
-    member.display()  # 회원 정보 출력
+    member.display()
 
 # 6
 posts = []
@@ -53,7 +53,7 @@ for post in posts:
         print(post.title)
 
 # 6-2
-print("\n'특정 단어'가 포함된 게시글의 제목:")
+print("\n특정 단어가 포함된 게시글의 제목:")
 for post in posts:
     if member2.name in post.content:
         print(post.title)
