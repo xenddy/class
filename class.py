@@ -34,7 +34,7 @@ for member in members:
 posts = []
 for member in members:
     for i in range(3):
-        post = Post(f"{member.name}'s Post {i+1}", f"Content of {member.name}'s post {i+1}", member.username)
+        post = Post(f"{member.name}의 게시글 {i+1}", f"{member.name}의 new post! {i+1}", member.username)
         posts.append(post)
 
 #posts[0].content='test'
